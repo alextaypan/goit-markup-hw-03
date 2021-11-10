@@ -26,20 +26,24 @@
         <nav class="nav-list">
           <a href="./index.html" class="logo">Web<span class="accent-header">Studio</span></a>
           <ul class="site-nav list">
-            <li><a href="./index.html" class="item current">Студия</a></li>
-            <li><a href="./portfolio.html" class="item">Портфолио</a></li>
-            <li><a href="" class="item">Контакты</a></li>
+            <li class="header-item"><a href="./index.html" class="item current">Студия</a></li>
+            <li class="header-item"><a href="./portfolio.html" class="item">Портфолио</a></li>
+            <li class="header-item"><a href="" class="item">Контакты</a></li>
           </ul>
         </nav>
         <ul class="contacts-header list">
-          <li><a href="mailto:info@devstudio.com" class="link link-mail">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+          <li class="contact-item">
+            <a href="mailto:info@devstudio.com" class="link link-mail">info@devstudio.com</a>
+          </li>
+          <li class="contact-item">
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+          </li>
         </ul>
       </div>
     </header>
     <main>
       <!--Герой-->
-      <section class="section hero">
+      <section class="hero">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button type="button" class="hero-button">Заказать услугу</button>
@@ -49,26 +53,26 @@
       <section class="section">
         <div class="container">
           <h2 class="advantages">Наши преимущества</h2>
-          <ul class="list">
-            <li>
+          <ul class="list advantages-container">
+            <li class="advantages-list">
               <h3 class="advantages-title">Внимание к деталям</h3>
               <p class="advantages-descr">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="advantages-list">
               <h3 class="advantages-title">Пунктуальность</h3>
               <p class="advantages-descr">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="advantages-list">
               <h3 class="advantages-title">Планирование</h3>
               <p class="advantages-descr">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="advantages-list">
               <h3 class="advantages-title">Современные технологии</h3>
               <p class="advantages-descr">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
@@ -81,8 +85,8 @@
       <section class="section">
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
-          <ul class="list">
-            <li>
+          <ul class="list works-container">
+            <li class="works-item">
               <img
                 src="images/activity1.jpg"
                 alt="Клавиатура, руки и планшет"
@@ -90,7 +94,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="works-item">
               <img
                 src="images/activity2.jpg"
                 alt="Телефон, руки и ноутбук"
@@ -98,7 +102,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="works-item">
               <img src="images/activity3.jpg" alt="Руки и планшет" width="370" height="294" />
             </li>
           </ul>
@@ -108,8 +112,8 @@
       <section class="section team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <ul class="list">
-            <li>
+          <ul class="list team-container">
+            <li class="team-list">
               <img
                 src="images/member1.jpg"
                 alt="Мужчина в бордовой рубашке и очках"
@@ -119,7 +123,7 @@
               <h3 class="team-member">Игорь Демьяненко</h3>
               <p class="team-position">Product Designer</p>
             </li>
-            <li>
+            <li class="team-list">
               <img
                 src="images/member2.jpg"
                 alt="Женщина в пиджаке и очках"
@@ -129,7 +133,7 @@
               <h3 class="team-member">Ольга Репина</h3>
               <p class="team-position">Frontend Developer</p>
             </li>
-            <li>
+            <li class="team-list">
               <img
                 src="images/member3.jpg"
                 alt="Мужчина в голубой рубашке"
@@ -139,7 +143,7 @@
               <h3 class="team-member">Николай Тарасов</h3>
               <p class="team-position">Marketing</p>
             </li>
-            <li>
+            <li class="team-list">
               <img
                 src="images/member4.jpg"
                 alt="Мужчина в черной футболке и очках"
@@ -159,7 +163,7 @@
         <a href="./index.html" class="logo">Web<span class="accent-footer">Studio</span></a>
         <address>г. Киев, пр-т Леси Украинки, 26</address>
         <ul class="contacts-footer list">
-          <li>
+          <li class="footer-link">
             <a href="mailto:info@example.com" class="link">info@example.com</a>
           </li>
           <li>
