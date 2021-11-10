@@ -60,6 +60,28 @@ h1, h2, h3, h4, h5, h6, p {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--accent-color);
+
+  margin-right: 93px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.contacts-header, {
+  display: flex;
+  align-items: center;
 }
 
 .site-nav .item {
@@ -92,6 +114,10 @@ h1, h2, h3, h4, h5, h6, p {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--title-text-color);
+}
+
+.link-mail {
+  margin-right: 50px;
 }
 
 .contacts-footer .link {
