@@ -22,11 +22,36 @@ body {
   background-color: var(--background-color);
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* Header&Footer */
+
+.page-header {
+  border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 
 .logo {
   font-family: Raleway, sans-serif;
@@ -133,6 +158,10 @@ address {
   color: var(--background-color);
   background-color: var(--accent-color);
   cursor: pointer;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-button:hover,
@@ -155,6 +184,10 @@ address {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--background-color);
+
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 696px;
 }
 
 /* Works */
@@ -191,6 +224,10 @@ address {
 }
 
 /* Team */
+
+.team {
+  background-color: var(--button-color);
+}
 
 .team-member {
   font-weight: 500;
