@@ -39,7 +39,6 @@ h1, h2, h3, h4, h5, h6, p {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid tomato;
 }
 
 .section {
@@ -249,22 +248,14 @@ address {
 .works {
   display: flex;
   flex-wrap: wrap;
-  margin: -15px;
+  justify-content: space-between;
+  margin-bottom: -15px;
 }
 
 .works-example {
   width: 370px;
-  margin: 15px;
+  margin-bottom: 15px;
 }
-
-/* .works-example {
-  width: calc((100% - 90px) / 3));
-  margin-right: 30px;
-}
-
-.works-example:nth-child(3n) {
-  margin-right: 0;
-} */
 
 .works-title {
   font-weight: 700;
