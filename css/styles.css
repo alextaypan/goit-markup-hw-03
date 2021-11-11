@@ -249,6 +249,12 @@ address {
 .works {
   display: flex;
   flex-wrap: wrap;
+  margin: -15px;
+}
+
+.works-example {
+  width: 370px;
+  margin: 15px;
 }
 
 /* .works-example {
